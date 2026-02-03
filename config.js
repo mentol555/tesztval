@@ -22,7 +22,7 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Leszel a Valentin Bixim?",                                    // First interaction
+            text: "Cerecc??",                                    // First interaction
             yesBtn: "HMM",                                             // Text for "Yes" button
             noBtn: "NO",                                               // Text for "No" button
             secretAnswer: "YES"           // Secret hover message
@@ -50,8 +50,8 @@ const CONFIG = {
     // Messages that appear after they say "Yes!"
     celebration: {
         title: "Helyes válasz. Tudtam, hogy így döntesz.",
-        message: "Ünnepeljük: Vacsi 14. estéjén, VALAMINT 16.-án INDULÁS KIRÁNDULNI!",
-        emojis: "KEZDJ EL PAKOLNI"  // These will bounce around
+        message: "Ünnepeljük: Vacsi 14. este, ES 16.-án KIRÁNDULAS! jo lesz MINDEN szempontbol ;)",
+        emojis: "KEZDJ EL PAKOLNI! RETEGESEN, SZINESEN"  // These will bounce around
     },
 
     // Color scheme for the website
