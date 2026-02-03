@@ -14,8 +14,8 @@ const CONFIG = {
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
-        bears: ['🧸', '🐻']                       // Cute bear emojis
+        hearts: [],  // Heart emojis
+        bears: []                       // Cute bear emojis
     },
 
     // Questions and answers
@@ -23,9 +23,9 @@ const CONFIG = {
     questions: {
         first: {
             text: "Leszel a Valentin Bixim?",                                    // First interaction
-            yesBtn: "YES",                                             // Text for "Yes" button
+            yesBtn: "HMM",                                             // Text for "Yes" button
             noBtn: "NO",                                               // Text for "No" button
-            secretAnswer: "kivanlak"           // Secret hover message
+            secretAnswer: "YES"           // Secret hover message
         },
         second: {
             text: "How much do you love me?",                          // For the love meter
@@ -34,8 +34,8 @@ const CONFIG = {
         },
         third: {
             text: "Leszel a Valentin Bixim 2026ban is?", // The big question!
-            yesBtn: "Yes!",                                             // Text for "Yes" button
-            noBtn: "No"                                                 // Text for "No" button
+            yesBtn: "YES!",                                             // Text for "Yes" button
+            noBtn: "NO"                                                 // Text for "No" button
         }
     },
 
@@ -49,9 +49,9 @@ const CONFIG = {
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
-        message: "Now come get your gift, a big warm hug and a huge kiss!",
-        emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
+        title: "Helyes válasz. Tudtam, hogy így döntesz.",
+        message: "Ünnepeljük: Vacsi 14. estéjén, VALAMINT 16.-án INDULÁS KIRÁNDULNI!",
+        emojis: "KEZDJ EL PAKOLNI"  // These will bounce around
     },
 
     // Color scheme for the website
@@ -69,15 +69,15 @@ const CONFIG = {
     animations: {
         floatDuration: "15s",           // How long it takes hearts to float up (10-20s recommended)
         floatDistance: "50px",          // How far hearts move sideways (30-70px recommended)
-        bounceSpeed: "0.5s",            // Speed of bouncing animations (0.3-0.7s recommended)
+        bounceSpeed: "1s",            // Speed of bouncing animations (0.3-0.7s recommended)
         heartExplosionSize: 1.5         // Size of heart explosion effect (1.2-2.0 recommended)
     },
 
     // Background Music (Optional)
     // Add your own music URL after getting proper licenses
     music: {
-        enabled: true,                     // Music feature is enabled
-        autoplay: true,                    // Try to autoplay (note: some browsers may block this)
+        enabled: false,                     // Music feature is enabled
+        autoplay: false,                    // Try to autoplay (note: some browsers may block this)
         musicUrl: "https://res.cloudinary.com/dncywqfpb/video/upload/v1738399057/music_qrhjvy.mp3", // Music streaming URL
         startText: "🎵 Play Music",        // Button text to start music
         stopText: "🔇 Stop Music",         // Button text to stop music
