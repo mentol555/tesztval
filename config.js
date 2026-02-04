@@ -50,7 +50,7 @@ const CONFIG = {
     // Messages that appear after they say "Yes!"
     celebration: {
         title: "Helyes válasz. Tudtam, hogy így döntesz.",
-        message: "Ünnepeljük: Vacsi 14. este, ES 16.-án KIRÁNDULAS! jo lesz MINDEN szempontbol ;)",
+        message: "Ünnepeljük: Vacsi 14. este, ES 16.-án KIRÁNDULAS! jo lesz MINDEN szempontbol ;) \nKEZDJ EL PAKOLNI! RETEGESEN, SZINESEN",
         emojis: "KEZDJ EL PAKOLNI! RETEGESEN, SZINESEN"  // These will bounce around
     },
 
